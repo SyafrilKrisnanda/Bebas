@@ -25,17 +25,17 @@ namespace Bebas
 
     public class Toyota : Mobil
     {
-        public string merk = "Toyota";
+        public new string merk = "Toyota";
     }
 
     class Agya : Toyota
     {
-        public string tipe = "Agya";
+        public new string tipe = "Agya";
     }
 
     class Avanza : Toyota
     {
-        public string tipe = "Avanza";
+        public new string tipe = "Avanza";
 
         public void NyalakanLampu(string merk, string tipe)
         {
@@ -45,37 +45,37 @@ namespace Bebas
 
     class Innova : Toyota
     {
-       public string tipe = "Innova";
+       public new string tipe = "Innova";
     }
 
     class Daihatsu : Mobil
     {
-        public string merk= "Daihatsu";
+        public new string merk= "Daihatsu";
     }
 
     class Ayla : Daihatsu
     {
-        public string tipe = "Ayla";
+        public new string tipe = "Ayla";
     }
 
     class Xenis : Daihatsu
     {
-        public string tipe = "Xenia";
+        public new string tipe = "Xenia";
     }
 
     class Honda : Mobil
     {
-        public string tipe = "honda";
+        public new string tipe = "honda";
     }
 
     class Brio : Honda
     {
-        public string tipe = "Brio";
+        public new string tipe = "Brio";
     }
 
     class Civic : Honda
     {
-        public string tipe = "Civic";
+        public new string tipe = "Civic";
 
         public void VtecKickedln()
         {

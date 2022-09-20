@@ -11,14 +11,14 @@ namespace Bebas
         static void Main(string[] args)
         {
             Mobil mobil1 = new Mobil();
-/*            mobil1.NyalakanMesin("Toyota", "Agya");*/
-            Console.WriteLine(mobil1.merk = "");
-            Console.WriteLine();
+            mobil1.NyalakanMesin("Toyota", "Agya");
 
             Mobil mobil2 = new Mobil();
+            mobil2.NyalakanMesin("Daihatsu", "Ayla");
             
 
             Civic civic1 = new Civic();
+            civic1.VtecKickedln();
         }
     }
 }

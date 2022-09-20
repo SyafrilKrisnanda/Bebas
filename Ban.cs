@@ -13,11 +13,11 @@ namespace Bebas
 
     class Michelin : Ban
     {
-        public string Merk = "Michelin";
+        public new string Merk = "Michelin";
     }
 
     class Bridgestone : Ban
     {
-        public string Merk = "Bridgeston";
+        public new string Merk = "Bridgeston";
     }
 }
