@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Bebas.Mobil" Collapsed="true">
-    <Position X="16.5" Y="2" Width="1.5" />
+  <Class Name="Bebas.Mobil">
+    <Position X="16.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAgAAAgAAAAAAAAACCAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Mobil.cs</FileName>
@@ -10,7 +10,7 @@
   <Class Name="Bebas.Toyota">
     <Position X="16.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Mobil.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -78,21 +78,29 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Bebas.Ban">
-    <Position X="28.75" Y="2" Width="1.5" />
+    <Position X="27" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>Ban.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Bebas.Michelin">
-    <Position X="29.5" Y="4.5" Width="1.5" />
+    <Position X="28.5" Y="4" Width="1.5" />
+    <InheritanceLine Type="Bebas.Ban" FixedToPoint="true">
+      <Path>
+        <Point X="27.75" Y="2.103" />
+        <Point X="27.75" Y="3.625" />
+        <Point X="29.438" Y="3.625" />
+        <Point X="29.438" Y="4" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>Ban.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Bebas.Bridgestone">
-    <Position X="27.25" Y="4.5" Width="1.5" />
+    <Position X="25.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>Ban.cs</FileName>

@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Bebas
 {
-    internal class Ban
+    public class Ban
     {
         public string Merk;
     }
 
     class Michelin : Ban
     {
-        public string Merk;
+        public string Merk = "Michelin";
     }
 
     class Bridgestone : Ban
     {
-        public string Merk;
+        public string Merk = "Bridgeston";
     }
 }
