@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bebas
 {
-    public class Mobil
+    public class Mobil : Ban
     {
-        public string merk = "";
-        public string tipe = "";
+        public string merk;
+        public string tipe;
 
         public void NyalakanMesin(string merk, string tipe)
         {
@@ -28,14 +28,14 @@ namespace Bebas
         public new string merk = "Toyota";
     }
 
-    class Agya : Toyota
+    public class Agya : Toyota
     {
-        public new string tipe = "Agya";
+        public string tipe = "Agya";
     }
 
     class Avanza : Toyota
     {
-        public new string tipe = "Avanza";
+        public string tipe = "Avanza";
 
         public void NyalakanLampu(string merk, string tipe)
         {
@@ -79,7 +79,7 @@ namespace Bebas
 
         public void VtecKickedln()
         {
-            Console.WriteLine(" Ngeeng Woooshh!!!!");
+            Console.WriteLine("Ngeeng Woooshh!!!!");
         }
     }
 
